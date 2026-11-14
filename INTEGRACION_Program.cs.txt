@@ -1,0 +1,12 @@
+// Integración sugerida dentro del try de Main, luego de abrir la conexión:
+using (MySqlConnection conexion = new MySqlConnection(cadenaConexion))
+{
+    conexion.Open();
+    Console.WriteLine("Conexión abierta correctamente.");
+
+    // Para probar el taller por separado, comenta temporalmente:
+    // AspectosAdoNet.Ejecutar(cadenaConexion);
+
+    BusquedaProductos.Ejecutar(conexion);
+    BusquedaProductos.BuscarPorParteDelNombre(conexion);
+}

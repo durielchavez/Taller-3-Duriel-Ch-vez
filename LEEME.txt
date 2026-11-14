@@ -1,0 +1,9 @@
+# Entrega de apoyo - Taller 3 ADO.NET
+Estudiante: Duriel Chávez
+
+Este paquete contiene los dos archivos solicitados por la guía y un fragmento de integración:
+- `Northwind-Catalogo/BusquedaProductos.cs`
+- `RESULTADOS.md`
+- `INTEGRACION_Program.cs.txt`
+
+**No es el proyecto original completo.** Debes descargar el repositorio del profesor y copiar estos archivos en las ubicaciones indicadas. Los resultados de ejecución y las once pruebas deben completarse en el equipo con la base Northwind. No se inventaron resultados ni capturas.
